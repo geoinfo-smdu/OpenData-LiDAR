@@ -1,0 +1,48 @@
+Name: PMSP LiDAR Point Clouds
+Description: The objective of the M3DC of the City of São Paulo is to publish data of point clouds (LiDAR) of the territory of the limits of the municipality with data acquired in 2017 and future surveys. This publicly accessible data set is provided in the format [Entwine Point Tiles] (https://entwine.io/entwine-point-tile.html), which is a lossless octree, full density, based on [LASzip] ( https://laszip.org) (LAZ) encoding.
+Documentation: https://github.com/geoinfo-smdu/M3DC
+Contact: http://geosampa.prefeitura.sp.gov.br
+ManagedBy: "[GeoSampa - o mapa digital da cidade de São Paulo](http://geosampa.prefeitura.sp.gov.br)"
+UpdateFrequency: Every time the city of São Paulo publishes a new point cloud 
+Tags:
+  - urban
+  - lidar
+  - sdm
+  - geospatial
+  - point of cloud
+  - cartography
+License: GNU General Public License v3.0 https://www.gnu.org/licenses/gpl-3.0.html
+Resources:
+  - Description: Public access Entwine Point Tiles of most resources from the ``arn:aws:s3:::m3dc-pmsp`` bucket.
+    ARN:
+    Region:
+    Type:
+DataAtWork:
+  Tutorials:
+    - Title: Using Lambda Layers with USGS 3DEP LiDAR Point Clouds
+      URL: https://github.com/hobu/usgs-lidar/tree/master/lambda
+      AuthorName: Howard Butler
+      AuthorURL: https://twitter.com/howardbutler
+    - Title: WebGL Visualization of USGS 3DEP Lidar Point Clouds with Potree and Plasio.js
+      URL: https://usgs.entwine.io/
+      AuthorName: Connor Manning
+      AuthorURL: https://twitter.com/csmannin
+  Tools & Applications:
+    - Title: PDAL - Point Data Abstraction Library
+      URL: https://pdal.io/
+      AuthorName: PDAL Contributors
+      AuthorURL: https://doi.org/10.5281/zenodo.2556738
+    - Title: Entwine
+      URL: https://entwine.io/
+      AuthorName: Hobu, Inc.
+      AuthorURL: https://hobu.co/
+    - Title: LAStools
+      URL: https://rapidlasso.com/lastools/
+      AuthorName: rapidlasso GmbH, GERMANY
+      AuthorURL: https://rapidlasso.com/
+  Publications:
+    - Title: Describing the Vertical Structure of Informal Settlements on the Basis of LiDAR Data – A Case Study for Favelas (Slums) in Sao Paulo City
+      URL: https://doi.org/10.5194/isprs-annals-IV-2-W5-437-2019
+      AuthorName: S. C. L. Ribeiro, M. Jarzabek-Rychard, J. P. Cintra, H.-G. Maas
+    - Title: Primeiro ciclo do ouro em São Paulo – conhecendo sua importância com o auxílio da Geoarqueologia
+      AuthorName: F. A. N. da Silva
