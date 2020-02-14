@@ -41,7 +41,11 @@ DataAtWork:
     - Title: LAStools
       URL: https://rapidlasso.com/lastools/
       AuthorName: rapidlasso GmbH, GERMANY
-      AuthorURL: https://rapidlasso.com/
+      AuthorURL: https://rapidlasso.com
+    - Title: Fusion
+      URL: http://forsys.sefs.uw.edu/fusion/fusionlatest.html
+      AuthorName: US Department of Agriculture - Forest Service
+      AuthorURL: https://www.usda.gov/
   Publications:
     - Title: Describing the Vertical Structure of Informal Settlements on the Basis of LiDAR Data – A Case Study for Favelas (Slums) in Sao Paulo City
       URL: https://doi.org/10.5194/isprs-annals-IV-2-W5-437-2019
