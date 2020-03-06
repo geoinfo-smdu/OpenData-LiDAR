@@ -22,15 +22,6 @@ Resources:
     Region:
     Type:
 DataAtWork:
-  Tutorials:
-    - Title: Using Lambda Layers with USGS 3DEP LiDAR Point Clouds
-      URL: https://github.com/hobu/usgs-lidar/tree/master/lambda
-      AuthorName: Howard Butler
-      AuthorURL: https://twitter.com/howardbutler
-    - Title: WebGL Visualization of USGS 3DEP Lidar Point Clouds with Potree and Plasio.js
-      URL: https://usgs.entwine.io/
-      AuthorName: Connor Manning
-      AuthorURL: https://twitter.com/csmannin
   Tools & Applications:
     - Title: PDAL - Point Data Abstraction Library
       URL: https://pdal.io/
