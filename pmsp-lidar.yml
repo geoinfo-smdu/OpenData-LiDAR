@@ -17,10 +17,14 @@ Tags:
   - land use
 License: GNU General Public License v3.0 https://www.gnu.org/licenses/gpl-3.0.html
 Resources:
-  - Description: Public access Entwine Point Tiles of most resources from the ``arn:aws:s3:::m3dc-pmsp`` bucket.
-    ARN:
-    Region:
-    Type:
+  - Description: São Paulo city's 3D LiDAR - EPT(Entwine Point of Clouds).
+    ARN: arn:aws:s3:::ept-m3dc-pmsp
+    Region: sa-east-1
+    Type: S3 Bucket
+  - Description: São Paulo city's 3D LiDAR - LAZ Files.
+    ARN: arn:aws:s3:::laz-m3dc-pmsp
+    Region: sa-east-1
+    Type: S3 Bucket
 DataAtWork:
   Tools & Applications:
     - Title: PDAL - Point Data Abstraction Library
